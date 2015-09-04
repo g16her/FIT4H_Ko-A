@@ -1,0 +1,49 @@
+Kapitel 1
+
+
+
+ Linux ist ein Computer-Betriebssystem, das 1991 als Open Source-Projekt von dem finnischen Studenten Linus Torvalds ins Leben gerufen wurde. Dieser Systemkern (Kernel) ist die Schnittstelle zwischen Hard- und Software und ermöglicht Anwenderprogrammen den Zugriff auf die Komponenten des Rechners wie Speicher, Festplatte, Tastatur und Maus, Druckerschnittstellen etc..
+
+ ### https://de.wikibooks.org/wiki/Linux-Praxisbuch:_Was_ist_der_Kernel%3F
+ #####
+	Der Kernel verwaltet alle Betriebsmittel eines Computers. Er ist der erste Schritt von der Hardware zum Benutzer. Nach innen, zur Hardware hin, ist der Kernel ein Organisator. Er teilt den unterschiedlichen Geräten mit, was sie wann zu tun haben und sorgt für möglichst reibungslose, effiziente Abläufe.
+Linux mit aus der Basisi von GNU
+
+
+
+
+
+
+
+
+Kapitel 2
+
+Wichtigste Wissensgebiete :
+
+Desktop-Anwendungen
+Serveranwendungen
+Mobile Anwendungen
+Entwicklung Sprachen
+Paketverwaltungswerkzeuge und Repositorys
+Das folgende ist eine teilweise Liste der verwendeten Dateien , Begriffe und Hilfsprogramme:
+
+OpenOffice.org , Libreoffice , Thunderbird, Firefox
+Blender , Gimp, Audacity, ImageMagick
+Apache, MySQL, PostgreSQL
+NFS, Samba , OpenLDAP , Postfix , DNS, DHCP
+C , Perl, Shell , Python, PHP
+
+
+Grundlegendes zu Open Source Software und Lizenzierung
+
+Gewicht: 1
+Beschreibung : Open Communities und Lizenz Open Source Software für Unternehmen.
+Wichtigste Wissensgebiete :
+
+Lizenzierung
+Free Software Foundation (FSF) , Open Source Initiative (OSI)
+Das folgende ist eine teilweise Liste der verwendeten Dateien , Begriffe und Hilfsprogramme:
+
+GPL , BSD, Creative Commons
+Freie Software , Open Source Software , FOSS , FLOSS
+Open Source Business modelsP

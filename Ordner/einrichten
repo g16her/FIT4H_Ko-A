@@ -1,0 +1,8 @@
+mkdir ruby
+
+touch ruby/code_ausfuehren.txt
+
+git add . -A
+str
+git commit -am 'Start Ruby
+'
