@@ -1,0 +1,94 @@
+Administrator werden:
+	#Linux Desktop beherschen
+	#Kenntnisse Informationstechnischen zusammenhängen
+	#Mehr als Server arbeit auch Dokumentation sind wichtig
+
+
+Linux Essentials Exam Objectives
+	#Thema 1: Die Linux-Community und eine Karriere in der Open Source
+	#EDV-Grundlagen und Arbeiten in Linux
+	#Grund Informations- und Kommunikationstechnologie (IKT) und die Arbeit in Linux.
+	#Desktop-Fähigkeiten (Befehlszeile,
+	Industrie Anwendungen von Linux,)
+	#Mit einem Browser,
+		-Datenschutzbedenke
+		-Konfigurationsoptionen
+		-Das Suchen im Internet
+		-Speichern von Inhalte
+		-Terminal und Konsole
+		-Kennwort Themen
+	Fragen der Privatsphäre und Werkzeuge
+	Nutzung gemeinsamer Open Source-Anwendungen in Präsentationen und Projekte
+
+
+Graphical vs. Non-Graphical Mode
+	# Man kann eine grafische Oberfläche wie z.b 
+	-	Webbrowser
+	-	Ordner
+	#Grafischer Modus Vorteil
+	- Übersichtlicher 
+	- mehrere Tabs offen 
+	- Anmeldung
+
+	#Keine Grafische Oberfläche
+	- Kennwort + Name (Terminator (cmd))
+	- keine Fenster bewegbar 
+	- Nur Text
+	- Laut Unix laufen dire meisten Server so, damit keine verschwenug von Ressourcen entsteht.
+	- rief die Nachricht des Tages (MOTD), die eine Chance für den Systemadministrator, um Informationen an die Nutzer übergeben
+Command line ( Befehlszeile)
+	#Befehlzeile
+	- einfache Textzeile
+	Jeder Linux-Desktop ist anders
+	- Terminal oder  x-term
+	- verschiedene Funktion und Werkezuge Ubuntu One
+
+3.5 Virtualization and Cloud Computing
+	#Linux ist ein Multiuser Betriebssystem
+		- viele Benutzer können auf dem gleichen
+		 	System gleichzeitig Arbeiten
+		- aber nicht anderen Benutzern schaden
+		- Benutzer können aber die CPU Resourcen 	
+			auslasten und damit das System verlangsam
+		- benutzer sind benachteiligt durch den mehr benutzer Modus so das sie benachteiligt sind beim errichten eigener Webserver 
+
+3.6 Using Linux For Work (Mit Linux arbeiten)
+	#Basis-Tools
+	-	Word processor (Textverarbeitungssystem)
+	-	Spreadsheet		(Tabelle)
+	-	Presentation package (Power Point)
+	- Web browser
+
+	- Open office, Libre Office
+	- Linux kann mit vielen Software arbeiten aber manche laufen nicht immer perfekt wie Adobe Flash das ist aber von Unternehmer abhäning
+	-Firefox und Chrome Funktionieren gut mit Linux
+
+3.7 Keeping Your Linux Computer Safe
+	 	(Halten Sie Ihre Linux-Computer sicher)
+	 	#Sicherheit
+	 		- Passwort (gutes PW 10 zeilen und 		
+	 			mischung aus zahlen und bustaben^groß und kleinschreibung Sonderzeichen)
+	 		- Linux macht jede Woche Updates und täglich gepürft
+	 		- firewall
+	 		-	Datenvekehr stoppbar
+	 		- mit Gui hat man die möglichkeit die Sicherheit zu verbessern
+
+3.8 Protecting Yourself 
+		#Schützen Sie sich
+
+		Im Netz aufpassen
+			-	Digitaler Fingerabdruck
+			-	verschiede Passwörter benutzer für 	
+				verschiedene webseiten
+			-	Cookies speichern was man macht 
+			- Blockieren von Cookies löschen
+			- tweaking privacy settings can make you 
+				more anonymous on the Internet
+			- Suchverlauf löschen 
+			- Tor Browser
+
+
+
+
+
+
