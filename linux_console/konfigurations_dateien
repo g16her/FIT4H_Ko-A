@@ -1,0 +1,23 @@
+Die Konfigurationsdateien liegen im Home-Verzeichnis des keweiligen Benutzers.
+Obwohl es sich bei der Konsole um ein Distributionspbergreifendes Programm handelt sind die Konfigurationsdateien bei jeder Disttrbution
+
+.bash_history
+	-hier werden die letzten 500 Befehle gespeichert
+	str + r + Befehl auf der Konsole ausgegeben sucht den letzten so lautenden Befehl
+	- history -c
+
+.bash_logut 
+	- wird nur verwendet, wen sich der User über einen Login-Vorgang (Remote-Server) die Shell (Bash) geöffnet hat. Beim Logout werden die Befehle der bash_log ausgeführt
+
+
+.bash_profile
+	- siehe bash_logout. Die Befehle werden beim login ausgeführt
+
+
+.bashrc
+	alias kua=cd /home/pan/Dokumente/FIT4H_Ko-A
+		source .bashrc 	#die Datei neu laden
+		kua             # navigiert zum Ordner
+
+		PATH 	#definiert die Pfade zum Suchen ausführbarer Dateien
+

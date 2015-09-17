@@ -34,6 +34,9 @@ cp
 		#die Datei wird ins Verzeichnis Dokumente kopiert
 	cp -r verzeichnis verzeichnis2
 		#-r: beim Kopieren von Verzeichnissen muss der Schalter -r angegeben werden. Dann wird ein Quell-Verzeichnis (verzeichnis1) mit allen Unterordnern und Dateien an das Ziel (verzeichnis2) kopiert.
+	cp *.txt unterverzeichnis/
+		# kopiert alle Dateien mit der Endung.txt in das Ziel (unterverzeichnis)
+		#der Asterisk (*) steht für beliebig viele Zeichen
 rm
 	#löscht Dateien und Verzeichnisse
 	cd/home/tb/

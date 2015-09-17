@@ -1,0 +1,42 @@
+Befehle:
+	j = nach unten
+ 	:q!=	<ENTER>  verwirft alle 	Änderungen, die Du gemacht hast.Ineinigen Lektionen lernst Du , die Änderungen in einer Datei zu speichern.
+ 	x = löschen
+ 	i = einfügen
+ 	A = anfügen 
+ 	:wq = speichern und verlassen von vim
+ 	dw = Wort löschen
+ 	d$ = Zeile löschen
+ 	(d - Löschoperator
+ 	Bewegung)
+ 	dd = löscht eine Zeile
+ 	u = Rückgäning machen
+ 	U = ganze Zeile wieder herstellen
+ 	p gelöschte Texte anfügen
+ 	rx = 
+
+****** Befehle zum Wechsel in den Eingabemodus
+i  #Einfügen vor der aktuellen Cursorposition
+a 	#Einfügen nach der Cursorposition
+I 	#Zeilenanfang
+A 	#Zeilenende 
+
+
+****** Löschbefehle *****************
+dd #löscht ganze Zeile
+p 	#fügt Puffer nach aktuellen Position ein
+u 	#macht letzten Befehl rückgäning
+
+****** Speichern********
+:wq		#Speichern und verlassen
+:q!		#
+
+***** Suchen*******************
+
+/Suchmuster	# sucht nach Suchmuster
+n			#sucht weiter
+N			#sucht zurück
+gg 		#Dateianfang
+G     #Dateiende
+100G	#springt in Zeile 100
+
