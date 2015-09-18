@@ -1,0 +1,39 @@
+4.1 Introduction(Einführung)
+
+	-Entdecken Sie Bash Funktionen
+	-Verwenden Sie Shell-Variablen
+	-Verstehen, wie man Globbing verwenden
+	-In der Lage, Nutzung unter Angabe machen
+
+4.2 Grundlagen und Prüfungziele Linux
+	-Grundschale
+	-Formatierungsbefehle
+	-Arbeiten mit Optionen
+	-Variablen
+	-Globbing
+	-Quoting
+
+	#Das folgende ist eine teilweise Liste der verwendeten Dateien, Begriffe und Hilfsprogramme:
+
+	Echo
+	PATH-Umgebungsvariable
+	Geschichte
+	was
+	Das folgende ist eine teilweise Liste der verwendeten Dateien, Begriffe und Hilfsprogramme:
+
+Auswechslungen
+||, && Und; Steuer Betreiber
+
+
+4.3 Files and directories
+	(Dateien und Verzeichnisse)
+
+	-Terminal Emulator
+
+	#Wenn Sie einen Befehl eingeben, wird es auf der Text-Cursor angezeigt. Sie können Tasten wie der Anfang, Ende, Rücktaste verwenden, und die Pfeiltasten zum Editieren der Befehls tippen.
+
+4.3.1 Step 1
+  #whoami Befehl sysadmin, zeigt den Benutzernamen des aktuellen Benutzers
+
+
+  
