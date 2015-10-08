@@ -1,0 +1,19 @@
+find
+	#der Befehl sucht und findet Dateien im Dateisystem
+
+Platzhalter:
+	? 			steht für ein Zeichen
+	*				steht für beleibig viele zeichen
+	[123] 	ein Zeichen das 1,2 oder 3 sein kann
+	[ab]		ein Zeichen. das a oder b sein kann
+	[a-d]		ein Zeichen innerhalb einer Range
+		
+Beispiele:
+	find datei?.txt
+		sucht im aktuellen Verzeichnis nach einer Datei die mit dem <datei> beginnt und eanschließend ein beliebiges Zeichen hat und dann mit <.txt> endet
+
+	find verzeichnis -name datei1.txt
+		#sucht im Verzeichnis <verzeichnis> nach genau dieser Datei
+
+		find /etc/passwd passwd -print 2>/dev/null 
+			# im Verzeichnus /etc wird nac einer Datei mit dem Namen oasswd gesucht. Die Fehlermeldungen werden nach /dev/numm(Nirwana) geschickt, also nicht ausgegeben
