@@ -67,3 +67,5 @@ ln -s quelle ziel
 	#symbolische Link
 	#ein Verzeichnis ode reine QUelle außerhalb der Festplatte können so integriert werden.
 
+	
+
