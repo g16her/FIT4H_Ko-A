@@ -48,7 +48,7 @@
 #grep -c '7' standorte.dat
 
 12. Fuegen Sie der Datei Standorte eine Leerzeile hinzu und finden sie Leerzeilen
-#grep  '^7' standorte.dat
+#grep  '^$' standorte.dat
   
 13. Alle Zeilen mit “eine”, aber nur als ganzes Wort
 #grep  '\<eine\>' standorte.dat
