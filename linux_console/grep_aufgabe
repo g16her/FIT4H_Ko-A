@@ -26,10 +26,10 @@
 #grep '[ng]$' standorte.dat
 
 5. Alle Zeilen, bei denen ein Grossbuchstabe zwischen H und M vorkommt
-#grep '^[H*M]' standorte.dat
+#grep '[H-M]' standorte.dat
 
 6. Alle Zeilen mit grossem B am Anfang
-#grep '[B]' standorte.dat
+#grep '^[B]' standorte.dat
 
 7. Alle Zeilen mit einer 1 am Ende
 #grep '[1]$' standorte.dat
