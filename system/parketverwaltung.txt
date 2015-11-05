@@ -1,0 +1,19 @@
+Pakete:
+	Die Linux-Softwareverwaltung ist in Pakete unterteilt. Ein paket enthält die Quellen die zur Lauffähigkeit einer Software notwending sind.
+Quellen und Komponenten 
+	Die Quellen an denen das jeweilige System die Pakete sucht sind in der Datei:
+		/etc/apt/sources.list
+
+	Komponenten:
+		main		#Opensource-Software vom Ubuntu Team verwaltet
+		 restricted #Nicht Opensource (Grafiktreiber) von Ubuntu Team verwaltet
+		 universe #Opensource der Community verwaltet
+		 multiverse #Pakete, die nicht unter der Püensource-Lizenz stehen
+
+		Aktualisierung eines Systems:
+			sudo apt-get update 	#aktualisiert die Liste der Software und vergleicht die Versionsstände
+			sudo apt-get upgrade 	#aktualisiert das System; installiert die neuen 
+
+Installation:
+	sudo apt-get install <name des pakets>
+	sudo apt-get remove <name des pakets>
