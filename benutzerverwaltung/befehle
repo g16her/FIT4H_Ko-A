@@ -11,7 +11,7 @@ FRONTEND
 	adduser
 		#führt durch einen Wizard(Vorgefertigtes installationprogrmam) zum Anlegen eines Users
 
-userdek <username>
+userdel <username>
 	gelöscht
 
 unsermod <username>
