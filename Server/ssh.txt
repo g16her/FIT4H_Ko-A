@@ -1,0 +1,17 @@
+Die Verbindunbg zu einem Server findet generell über SSH statt.
+
+SSH bietet eine Verschlüsselung und läuft über Port 22.
+
+Linux bietet eine frei Servervariante: openssh
+
+Installation:
+	Prüfen bestehender Installation: ps xaf | grep sshd
+	sudo apt-get update
+	sudo apt-get install opensshr-server
+
+Clients:
+	a. Windows:
+		-der Standardclient zum Verbinden mit dem Server über Windows ist putty
+		-der Windows-Standardclient zum Kopieren von Dateien ist winscp
+	b. Linux
+	-die Verbindung zum Server ist mit jeder Konsole/terminal möglich

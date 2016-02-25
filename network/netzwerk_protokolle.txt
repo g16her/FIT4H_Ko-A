@@ -1,6 +1,6 @@
 arp
 	#wandel IP in MAC
-	arp 172.16.1.201 zeigt die Mach-Adresse
+	arp 172.16.1.201 zeigt die Mach-Adressewsaafdfs
 
 ICMP
 	#dient der Übermittlung techn. Infos 
