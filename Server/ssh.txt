@@ -9,9 +9,25 @@ Installation:
 	sudo apt-get update
 	sudo apt-get install opensshr-server
 
+Server starten:
+	sudo service shh <reload |restart|start|stop>
+	sudp /etc/init.de/ssh <...>
+
 Clients:
 	a. Windows:
 		-der Standardclient zum Verbinden mit dem Server über Windows ist putty
 		-der Windows-Standardclient zum Kopieren von Dateien ist winscp
 	b. Linux
 	-die Verbindung zum Server ist mit jeder Konsole/terminal möglich
+
+	Verbindung zwischen Client und Server:
+		ssh user_auf_server@ip-adresse
+		ssh user_auf_server@server-name.de
+		ssh server_name.de
+		ssh - p 3000 server_name
+
+Kopieren von Dateien/Verzeichnisen zum Server 
+	scp quelle ziel
+	scp datei_zu_kopieren theo@servername:/home/theo
+	scp -r ordner_zu_kopieren theo@servername:/home/theo
+

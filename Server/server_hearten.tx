@@ -1,0 +1,31 @@
+SSH konfigurieren 
+	Die Konfigurationsdatei anpassen
+	sudo vim /etc/ssh/sshd_config
+		- Port 3333 
+		#Standardport 22 in eine Nummer > 1024 und < 65535 ##SICHERHEIT!!
+		-MaxAuthTries 1 + Firewall
+		-PermitRootLogin no
+			#der root-User kann sich nicht über ssh einloggen
+	#nach Änderungen an der Konfigurationsdatei:
+		sudo service shh restart
+
+
+SSH-Login nur möglich über vorher definierte Rechner
+	Schlüsssel auf Client (Desktop-Rechner)
+	ssh-keygen -t rsa -C "theo@gmx.de"
+		#Schlüssel des Clientrechners wird in der Datei ~/ .ssh/id_rsa abgelegt
+	shsh-copy-id -i ~/ .ssh/id_rsa.pub theo@rechnername
+
+	Konfigurationsdatei sshd_config:
+		PasswordAuthentication no
+		RSAAuthentication yes
+		PubkeyAuthentication yes
+
+Sicherheitslücken kontrollieren:
+	Es darf keinen User geben, der sich einloggen darf (
+	/etc/passwd - dort letzer Eintrag pro Zeile), und der in der 	
+		/etc/shadow zwischen dem ersten und dem zweiten Doppelpunkt
+		nichts oder ein! oder einen * hat.
+
+	
+	
