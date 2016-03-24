@@ -24,7 +24,7 @@ Clients:
 		ssh user_auf_server@ip-adresse
 		ssh user_auf_server@server-name.de
 		ssh server_name.de
-		ssh - p 3000 server_name
+		ssh - p 1026 server_name
 
 Kopieren von Dateien/Verzeichnisen zum Server 
 	scp quelle ziel
